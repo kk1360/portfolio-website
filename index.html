@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="style.css">
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-container">
+            <div class="logo"data-aos="zoom-in" data-aos-duration="1500" >
+                <span>Karan</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#projects">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
+                    
+            </div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+            <div class="dropdown">
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Contact">Contact</a>    
+            <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </nav>
+        <section>
+            <div class="main-container">
+                <div class="image" data-aos="zoom-in-right" data-aos-duration="3000">
+                  <img src="main.png.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h1 data-aos="fade-right" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Karan</span></h1>
+                    <h2 class="typing-text" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="900"><span class="static-text">I'm a</span> <span class="animated-text"></span></h2>
+                    <p data-aos="flip-up" data-aos-duration="1500" data-aos-delay="1100">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta dolorom hic ipsa vero. Eveniet, facilis! Quisquam eos reprehenderi.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/karan-kommireddi-640086214/" target="_blank" rel="noopener noreferrer" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="1200">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.hackerrank.com/profile/kk7995" target="_blank" rel="noopener noreferrer" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="1300">
+                            <i class="fa-brands fa-hackerrank"></i>
+                        </a>
+                        <a href="https://www.facebook.com/karan.kommireddi.5" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/karankommireddi/" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="bnt" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1700">
+                        <a href="Karan_Kommireddy_CV.docx" download>
+                            <button>Download CV</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" data-aos="fade-right" data-aos-duration="1500">
+            <div class="section-container">
+                <h2>About Me</h2>
+                <p>I am Karan Kommireddy, a passionate B.Tech student at SRM Institute, aspiring to become a full-stack developer. My interests include emerging technologies like AI and blockchain. I enjoy tackling complex problems and learning new tools to enhance my development skills.</p>
+            </div>
+        </section>
+        
+        <section id="skills" data-aos="fade-right" data-aos-duration="1500">
+            <div class="section-container">
+                <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>React, Node.js</li>
+                    <li>Python, Java</li>
+                    <li>Blockchain Fundamentals</li>
+                    <li>Database Management (SQL, MongoDB)</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="projects" data-aos="fade-right" data-aos-duration="1500">
+            <div class="section-container">
+                <h2>Projects</h2>
+                <div class="project-list">
+                    <div class="project-item">
+                        <h3>Currency Converter</h3>
+                        <p>A web app for converting currencies, using HTML, CSS, and JavaScript.</p>
+                        <h4>Personal Portfolio Website</h4>
+                        <p>A responsive and interactive personal website showcasing skills, projects, and contact information, using HTML, CSS, and JavaScript.</p>
+                        <h5>Task Management System</h5>
+                        <p>A full-stack app for managing tasks with features like due dates and categories, built using the MERN stack (MongoDB, Express, React, Node.js).</p>
+                        <h6>Real-Time Chat Application</h6>
+                        <p>A chat app that supports private and group chats, developed with Node.js, Express, Socket.IO, and React.</p>
+                    </div>
+                    <!-- Add more projects as needed -->
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" data-aos="fade-up" data-aos-duration="1500">
+            <div class="section-container">
+                <h2>Contact</h2>
+                <p>You can reach me at:</p>
+                <ul class="contact-info">
+                    <li><strong>Phone:</strong> 8142063008</li>
+                    <li><strong>Email:</strong> <a href="mailto:postbox1360@gmail.com">postbox1360@gmail.com</a></li>
+                    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/karan-kommireddi-640086214/" target="_blank">linkedin.com/in/karan-kommireddi</a></li>
+                </ul>
+            </div>
+        </section>
+        
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+        <script>
+            function hamburg(){
+                const navbar=document.querySelector(".dropdown")
+                navbar.style.transform="translateY(0px)"
+            }
+            function cancel(){
+                const navbar=document.querySelector(".dropdown")
+                navbar.style.transform="translateY(-400px)"
+            }
+        </script>
+    </body>
+</html>
